@@ -1355,11 +1355,11 @@ section .hero {
   color: color-mix(in srgb, var(--default-color), transparent 40%);
   font-weight: 300;
   white-space: nowrap;
-  margin-left: 2rem;
+  margin-left: 1rem;
 }
 
 .resume .experience-grid .experience-item .item-content p {
-  font-size: 1rem;
+  font-size: 4rem;
   line-height: 1.7;
   color: color-mix(in srgb, var(--default-color), transparent 25%);
   margin: 0;
