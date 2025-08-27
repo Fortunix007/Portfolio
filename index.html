@@ -26,6 +26,10 @@
 
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
+  <!-- Lightbox CSS -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/css/lightbox.min.css" rel="stylesheet">
+
+
 
   <!-- =======================================================
   * Template Name: MinimalFolio
@@ -698,11 +702,11 @@
 
     </section><!-- /Professional Experience Section -->
 
-    <!-- Portfolio Section -->
+      <!-- Portfolio Section -->
 <section id="portfolio" class="portfolio section">
   <div class="container section-title" data-aos="fade-up">
     <h2>Surveying Projects</h2>
-    <p>A showcase of my fieldwork and as-built surveys, including reports, drawings, and QA documentation.</p>
+    <p>A showcase of precision fieldwork, as-built surveys, and technical documentation</p>
   </div>
 
   <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -711,13 +715,33 @@
       <!-- Project 1 -->
       <div class="col-lg-4 col-md-6 portfolio-item">
         <div class="portfolio-wrap">
-          <img src="assets/img/portfolio/as-build.jpg" class="img-fluid" alt="Building As-Built Survey">
+          <div class="portfolio-img-container as-built surveying-image">
+            <a href="assets/img/portfolio/as-build.jpg" data-lightbox="portfolio" data-title="Obstructed-Corners Building As-Built">
+              <img src="assets/img/portfolio/as-build.jpg" class="img-fluid" alt="Building As-Built Survey">
+            </a>
+            <div class="portfolio-overlay">
+              <div class="project-type-badge">As-Built Survey</div>
+              <div class="portfolio-action-btns">
+                <a href="assets/projects/portfolio_projects/Project2_Building_AsBuilt_ObscuredCorners/as-build-grok.pdf" target="_blank" title="View Report" class="portfolio-action-btn">
+                  <i class="bi bi-eye"></i>
+                </a>
+                <a href="assets/projects/portfolio_projects/Project2_Building_AsBuilt_ObscuredCorners/corners.csv" download title="Download Files" class="portfolio-action-btn">
+                  <i class="bi bi-download"></i>
+                </a>
+              </div>
+            </div>
+          </div>
           <div class="portfolio-info">
+            <div class="portfolio-meta">
+              <span class="project-date"><i class="bi bi-calendar me-1"></i> Aug 2025</span>
+              <span class="project-category">Precision Surveying</span>
+            </div>
             <h4>Obstructed-Corners Building As-Built</h4>
-            <p>Reflectorless building survey capturing 3 visible corners and QA-derived 4th corner.</p>
-            <div class="portfolio-links">
-              <a href="assets/projects/portfolio_projects/Project2_Building_AsBuilt_ObscuredCorners/as-build-grok.pdf" target="_blank" title="View Report"><i class="bi bi-file-earmark-pdf"></i></a>
-              <a href="assets/projects/portfolio_projects/Project2_Building_AsBuilt_ObscuredCorners/corners.csv" download title="Download Files"><i class="bi bi-download"></i></a>
+            <p>Reflectorless building survey capturing 3 visible corners and QA-derived 4th corner with millimeter precision.</p>
+            <div class="project-tech">
+              <span class="tech-tag">Leica TS16</span>
+              <span class="tech-tag">AutoCAD</span>
+              <span class="tech-tag">QA Documentation</span>
             </div>
           </div>
         </div>
@@ -726,13 +750,33 @@
       <!-- Project 2 -->
       <div class="col-lg-4 col-md-6 portfolio-item">
         <div class="portfolio-wrap">
-          <img src="assets/img/portfolio/Resection.jpg" class="img-fluid" alt="Resection Survey">
+          <div class="portfolio-img-container control-network surveying-image">
+            <a href="assets/img/portfolio/Resection.jpg" data-lightbox="portfolio" data-title="Control Network Resection Survey">
+              <img src="assets/img/portfolio/Resection.jpg" class="img-fluid" alt="Resection Survey">
+            </a>
+            <div class="portfolio-overlay">
+              <div class="project-type-badge">Control Network</div>
+              <div class="portfolio-action-btns">
+                <a href="assets/projects/portfolio_projects/Resection_Survey/resection report.pdf" target="_blank" title="View Report" class="portfolio-action-btn">
+                  <i class="bi bi-eye"></i>
+                </a>
+                <a href="assets/projects/portfolio_projects/Resection_Survey/Resection_Data.csv" download title="Download Files" class="portfolio-action-btn">
+                  <i class="bi bi-download"></i>
+                </a>
+              </div>
+            </div>
+          </div>
           <div class="portfolio-info">
+            <div class="portfolio-meta">
+              <span class="project-date"><i class="bi bi-calendar me-1"></i> Jul 2025</span>
+              <span class="project-category">Control Survey</span>
+            </div>
             <h4>Control Network Resection Survey</h4>
-            <p>Resection survey establishing station coordinates using Leica TS16.</p>
-            <div class="portfolio-links">
-              <a href="assets/projects/portfolio_projects/Resection_Survey/resection report.pdf" target="_blank" title="View Report"><i class="bi bi-file-earmark-pdf"></i></a>
-              <a href="assets/projects/portfolio_projects/Resection_Survey/Resection_Data.csv" download title="Download Files"><i class="bi bi-download"></i></a>
+            <p>Resection survey establishing station coordinates using Leica TS16 with precision control points.</p>
+            <div class="project-tech">
+              <span class="tech-tag">Leica TS16</span>
+              <span class="tech-tag">CS20 Controller</span>
+              <span class="tech-tag">Coordinate Geometry</span>
             </div>
           </div>
         </div>
@@ -741,13 +785,33 @@
       <!-- Project 3 -->
       <div class="col-lg-4 col-md-6 portfolio-item">
         <div class="portfolio-wrap">
-          <img src="assets/img/portfolio/levelling.jpg" class="img-fluid" alt="Garden Levelling Survey">
+          <div class="portfolio-img-container levelling surveying-image">
+            <a href="assets/img/portfolio/levelling.jpg" data-lightbox="portfolio" data-title="Levelling Survey">
+              <img src="assets/img/portfolio/levelling.jpg" class="img-fluid" alt="Garden Levelling Survey">
+            </a>
+            <div class="portfolio-overlay">
+              <div class="project-type-badge">Levelling Run</div>
+              <div class="portfolio-action-btns">
+                <a href="assets/projects/portfolio_projects/Project3_Levelling_Run/levelling-coventry.pdf" target="_blank" title="View Report" class="portfolio-action-btn">
+                  <i class="bi bi-eye"></i>
+                </a>
+                <a href="assets/projects/portfolio_projects/Project3_Levelling_Run/levels.csv" download title="Download Files" class="portfolio-action-btn">
+                  <i class="bi bi-download"></i>
+                </a>
+              </div>
+            </div>
+          </div>
           <div class="portfolio-info">
+            <div class="portfolio-meta">
+              <span class="project-date"><i class="bi bi-calendar me-1"></i> Jun 2025</span>
+              <span class="project-category">Precision Levelling</span>
+            </div>
             <h4>Levelling Survey</h4>
-            <p>Level loop survey of building site using leica laser level.</p>
-            <div class="portfolio-links">
-              <a href="assets/projects/portfolio_projects/Project3_Levelling_Run/levelling-coventry.pdf" target="_blank" title="View Report"><i class="bi bi-file-earmark-pdf"></i></a>
-              <a href="assets/projects/portfolio_projects/Project3_Levelling_Run/levels.csv" download title="Download Files"><i class="bi bi-download"></i></a>
+            <p>Level loop survey of building site using Leica laser level with elevation accuracy within ±2mm.</p>
+            <div class="project-tech">
+              <span class="tech-tag">Laser Level</span>
+              <span class="tech-tag">Excel Data Processing</span>
+              <span class="tech-tag">Elevation Control</span>
             </div>
           </div>
         </div>
@@ -756,7 +820,7 @@
     </div>
   </div>
 </section>
-<!-- /Portfolio Section -->
+
 
     <!-- Survey Data Section -->
     <section id="survey-data" class="survey-data section light-background">
@@ -969,6 +1033,8 @@ TP3,477022.098,218436.234,87.678</pre>
 
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
+  <!-- Lightbox JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/js/lightbox.min.js"></script>
 
   <style>
     /* Enhanced Experience Section Styles */
