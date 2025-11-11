@@ -29,6 +29,61 @@
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
   <!-- Lightbox CSS -->
+  <style>
+    /* Force boxed skills layout */
+    section#skills.skills .skills-wrap .row > [class*="col-"] {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+  
+    section#skills.skills .skills-wrap .skill-item {
+      box-sizing: border-box;
+      width: 100%;
+      background: #ffffff !important;
+      border-radius: 10px;
+      border: 1px solid rgba(0,0,0,0.08) !important;
+      padding: 16px 18px !important;
+      box-shadow: 0 8px 22px rgba(0,0,0,0.03);
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      gap: 6px;
+      text-align: left;
+      transition:
+        transform 0.22s ease-in-out,
+        box-shadow 0.22s ease-in-out,
+        border-color 0.22s ease-in-out,
+        background-color 0.22s ease-in-out;
+    }
+  
+    section#skills.skills .skills-wrap .skill-item i {
+      font-size: 20px;
+      color: var(--accent-color);
+      line-height: 1;
+    }
+  
+    section#skills.skills .skills-wrap .skill-item h3 {
+      font-size: 16px;
+      font-weight: 500;
+      margin: 4px 0 0;
+      color: var(--heading-color);
+    }
+  
+    section#skills.skills .skills-wrap .skill-item p {
+      font-size: 13px;
+      line-height: 1.6;
+      margin: 2px 0 0;
+      color: color-mix(in srgb, var(--default-color), transparent 55%);
+    }
+  
+    section#skills.skills .skills-wrap .skill-item:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 14px 30px rgba(0,0,0,0.06);
+      border-color: color-mix(in srgb, var(--accent-color), transparent 65%);
+      background-color: color-mix(in srgb, var(--accent-color), white 94%);
+    }
+  </style>
+  
 <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/css/lightbox.min.css" rel="stylesheet">
 
 
@@ -145,124 +200,194 @@
 
     </section><!-- /Hero Section -->
 
-    <!-- About Section -->
-    <section id="about" class="about section light-background">
+   <!-- About Section -->
+<section id="about" class="about section light-background">
 
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>About</h2>
-        <p>Precision in Setting Out & Surveying</p>
-      </div><!-- End Section Title -->
+  <!-- Section Title -->
+  <div class="container section-title" data-aos="fade-up">
+    <h2>About</h2>
+    <p>Precision in Setting Out, Surveying &amp; AI-Augmented Engineering</p>
+  </div>
+  <!-- End Section Title -->
 
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
+  <div class="container" data-aos="fade-up" data-aos-delay="100">
 
-        <!-- Intro + Photo -->
-        <div class="row align-items-center justify-content-between intro-wrap gy-5">
-          <div class="col-lg-7" data-aos="fade-right" data-aos-delay="150">
-            <div class="intro-content">
-              <span class="eyebrow">Hello there</span>
-              <h2 class="headline">Hi, I'm Fortune — a Site Engineer and British citizen with practical knowledge in surveying, setting out, and construction control.</h2>
-              <p class="lead">
-                I specialize in resection, levelling, topographic surveys, and as-built documentation with a proven track record of delivering projects with precision and efficiency. My background combines technical training and hands-on fieldwork, where I've completed projects such as garden foundation surveys, building corner as-builts, and levelling exercises – all documented with drawings, QA workbooks, and reports.
-              </p>
-              <p>
-                What sets me apart is my focus on accuracy and workflow efficiency: from creating control networks and staking coordinates to exporting data for AutoCAD and producing final reports. I am confident in reading construction drawings, interpreting gridlines, and translating them into precise site layouts. My goal is to bring precision, reliability, and efficiency to every project, ensuring that works on site are executed correctly the first time.
-              </p>
+    <!-- Intro + Photo -->
+    <div class="row align-items-center justify-content-between intro-wrap gy-5">
+      <div class="col-lg-7" data-aos="fade-right" data-aos-delay="150">
+        <div class="intro-content">
+          <span class="eyebrow">Hello there</span>
 
-              <div class="cta-group">
-                <a href="#portfolio" class="btn-ghost">
-                  View My Work <i class="bi bi-arrow-down"></i>
-                </a>
-                <a href="#contact" class="link-underline">
-                  Request Full CV <i class="bi bi-download"></i>
-                </a>
-              </div>
-            </div>
+          <h2 class="headline">
+            Hi, I'm Fortune — a Site &amp; Setting Out Engineer and British citizen specialising in high-accuracy surveying, construction control, and AI-augmented engineering workflows.
+          </h2>
+
+          <!-- Role & Tech Badges -->
+          <div class="meta-badges">
+            <span class="badge-pill">AI-Augmented Engineering</span>
+            <span class="badge-pill">Construction Technology Integration</span>
+            <span class="badge-pill">Digital QA &amp; As-Built Reporting</span>
           </div>
 
-          <div class="col-lg-5" data-aos="zoom-in" data-aos-delay="250">
-            <figure class="profile-figure text-center text-lg-end">
-              <img src="assets/img/profile/WhatsApp Image 2025-08-19 at 05.48.50.jpeg" alt="Portrait of Fortune Akaleme, Site Engineer" class="img-fluid profile-photo">
-              <figcaption class="profile-caption d-flex justify-content-end">
-              </figcaption>
-            </figure>
+          <p class="lead">
+            I focus on precise setting out, resection, levelling, topographic surveys, and as-built documentation — backed by hands-on experience on live projects and a strong technical foundation. My work spans garden foundation surveys, building corner as-builts, drainage and control networks, each supported by clear drawings, QA workbooks, and structured reports.
+          </p>
+
+          <p>
+            I blend traditional engineering discipline with modern digital tools and AI-Augmented Engineering Intelligence. From establishing control networks and staking coordinates, to validating data, automating QA checks, and exporting clean datasets for AutoCAD and project teams, I focus on accuracy, repeatability, and lean workflows so designs are built right the first time.
+          </p>
+
+          <div class="cta-group">
+            <a href="#portfolio" class="btn-ghost">
+              View My Work <i class="bi bi-arrow-down"></i>
+            </a>
+            <a href="#contact" class="link-underline">
+              Request Full CV <i class="bi bi-download"></i>
+            </a>
           </div>
-        </div>
-        <!-- End Intro + Photo -->
-    
-    </div> <!-- Skills Grid -->
-      <div class="skills-wrap">
-        <div class="row g-4">
-      
-          <div class="col-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="120">
-            <div class="skill-item">
-              <i class="bi bi-geo-alt"></i>
-              <h3>Setting Out</h3>
-              <p>Accurate site layout using total station and control points with ±3mm precision.</p>
-            </div>
-          </div>
-      
-          <div class="col-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="180">
-            <div class="skill-item">
-              <i class="bi bi-diagram-3"></i>
-              <h3>Topographic Surveying</h3>
-              <p>Capturing and mapping terrain and site features with 50+ surveys completed.</p>
-            </div>
-          </div>
-      
-          <div class="col-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="240">
-            <div class="skill-item">
-              <i class="bi bi-building"></i>
-              <h3>As-Built Surveys</h3>
-              <p>Documenting completed works with high precision, identifying 15+ design clashes.</p>
-            </div>
-          </div>
-      
-          <div class="col-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="300">
-            <div class="skill-item">
-              <i class="bi bi-rulers"></i>
-              <h3>Levelling</h3>
-              <p>Establishing elevations and reference benchmarks with 99.8% accuracy rate.</p>
-            </div>
-          </div>
-      
-          <div class="col-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="360">
-            <div class="skill-item">
-              <i class="bi bi-pencil-square"></i>
-              <h3>AutoCAD</h3>
-              <p>Processing survey data and producing accurate drawings for 20+ projects.</p>
-            </div>
-          </div>
-      
-          <div class="col-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="420">
-            <div class="skill-item">
-              <i class="bi bi-hdd-stack"></i>
-              <h3>Data Management</h3>
-              <p>Handling survey files, CSV exports, and QA reporting with meticulous attention.</p>
-            </div>
-          </div>
-      
-          <div class="col-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="480">
-            <div class="skill-item">
-              <i class="bi bi-camera-video"></i>
-              <h3>Drone Surveying</h3>
-              <p>UAV photogrammetry &amp; LiDAR for rapid site mapping, volumes, and inspections.</p>
-            </div>
-          </div>
-      
-          <!-- New Skill: AI-Augmented Engineering -->
-          <div class="col-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="540">
-            <div class="skill-item">
-              <i class="bi bi-cpu"></i>
-              <h3>AI-Augmented Engineering</h3>
-              <p>Leveraging AI, automation, and digital tools to optimize setting out, QA, and data-driven construction workflows.</p>
-            </div>
-          </div>
-      
         </div>
       </div>
-      <!-- End Skills Grid -->
-      
+
+      <div class="col-lg-5" data-aos="zoom-in" data-aos-delay="250">
+        <figure class="profile-figure text-center text-lg-end">
+          <img src="assets/img/profile/WhatsApp Image 2025-08-19 at 05.48.50.jpeg"
+               alt="Portrait of Fortune Akaleme, Site &amp; Setting Out Engineer"
+               class="img-fluid profile-photo">
+          <figcaption class="profile-caption d-flex justify-content-end">
+          </figcaption>
+        </figure>
+      </div>
+    </div>
+    <!-- End Intro + Photo -->
+
+    <!-- Journey Timeline -->
+    <div class="journey-wrap">
+      <div class="row g-4">
+    
+        <div class="col-md-6 col-lg-3">
+          <article class="timeline-item">
+            <span class="dot"></span>
+            <i class="bi bi-geo-alt"></i>
+            <time>2018–2019</time>
+            <h4>Assistant Site Engineer</h4>
+            <p>Supported setting out, levelling, and QA documentation with DT Source Construction Ltd, London.</p>
+          </article>
+        </div>
+    
+        <div class="col-md-6 col-lg-3">
+          <article class="timeline-item">
+            <span class="dot"></span>
+            <i class="bi bi-building"></i>
+            <time>2019–2022</time>
+            <h4>Site/Setting Out Engineer</h4>
+            <p>Delivered precise setting out and as-built surveys with Bluedotbook (Texas, USA).</p>
+          </article>
+        </div>
+    
+        <div class="col-md-6 col-lg-3">
+          <article class="timeline-item">
+            <span class="dot"></span>
+            <i class="bi bi-diagram-3"></i>
+            <time>2022–2023</time>
+            <h4>Project Site Engineer</h4>
+            <p>Led drainage, foundations, and highways setting out with Buckingham Group.</p>
+          </article>
+        </div>
+    
+        <div class="col-md-6 col-lg-3">
+          <article class="timeline-item">
+            <span class="dot"></span>
+            <i class="bi bi-cpu"></i>
+            <time>2023–Present</time>
+            <h4>HS2 &amp; AI-Augmented Engineering</h4>
+            <p>Setting Out Engineer at Clancy on HS2 using AI-augmented workflows for QA & accuracy.</p>
+          </article>
+        </div>
+    
+      </div>
+    </div>    
+    <!-- End Journey Timeline -->
+
+  </div>
+</section>
+<!-- End About Section -->
+
+
+<section id="skills" class="skills section">
+  <div class="container">
+    <div class="skills-wrap">
+      <div class="row g-3">
+
+        <div class="col-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="120">
+          <div class="skill-item">
+            <i class="bi bi-geo-alt"></i>
+            <h3>Setting Out</h3>
+            <p>High-precision layout using total stations, GPS, and robust control.</p>
+          </div>
+        </div>
+
+        <div class="col-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="160">
+          <div class="skill-item">
+            <i class="bi bi-diagram-3"></i>
+            <h3>Topographic Surveying</h3>
+            <p>Detail surveys for design coordination, planning, and logistics.</p>
+          </div>
+        </div>
+
+        <div class="col-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="200">
+          <div class="skill-item">
+            <i class="bi bi-building"></i>
+            <h3>As-Built Surveys</h3>
+            <p>Accurate verification of installed works against design models.</p>
+          </div>
+        </div>
+
+        <div class="col-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="240">
+          <div class="skill-item">
+            <i class="bi bi-rulers"></i>
+            <h3>Levelling</h3>
+            <p>Reliable benchmarks and level control for critical structures.</p>
+          </div>
+        </div>
+
+        <div class="col-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="280">
+          <div class="skill-item">
+            <i class="bi bi-pencil-square"></i>
+            <h3>AutoCAD</h3>
+            <p>Clean drawings, survey deliverables, and coordinated as-builts.</p>
+          </div>
+        </div>
+
+        <div class="col-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="320">
+          <div class="skill-item">
+            <i class="bi bi-hdd-stack"></i>
+            <h3>Data Management</h3>
+            <p>Structured survey data, QA records, and digital documentation.</p>
+          </div>
+        </div>
+
+        <div class="col-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="360">
+          <div class="skill-item">
+            <i class="bi bi-camera-video"></i>
+            <h3>Drone Surveying</h3>
+            <p>UAV mapping for volumes, progress tracking, and hard-to-reach areas.</p>
+          </div>
+        </div>
+
+        <div class="col-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="400">
+          <div class="skill-item">
+            <i class="bi bi-cpu"></i>
+            <h3>AI-Augmented Engineering</h3>
+            <p>Using AI &amp; automation to enhance QA, reporting, and clash checks.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+
 
         <!-- Technical Proficiencies Section -->
         <div class="technical-skills mt-5" data-aos="fade-up" data-aos-delay="200">
@@ -348,87 +473,51 @@
     </div>
   </div>
 </div>
-
-
-        <!-- Journey Timeline -->
-        <div class="journey-wrap mt-5">
-          <div class="row g-4">
-            <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="120">
-              <article class="timeline-item">
-                <span class="dot"></span>
-                <i class="bi bi-compass" style="font-size: 1.5rem; color: #0d6efd;"></i>
-                <time>2024</time>
-                <h4>Introduction to Surveying</h4>
-                <p>Began training in construction surveying and setting out, learning the fundamentals of total stations and levelling.</p>
-              </article>
-            </div>
-            <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="180">
-              <article class="timeline-item">
-                <span class="dot"></span>
-                <i class="bi bi-bullseye" style="font-size: 1.5rem; color: #198754;"></i>
-                <time>2025</time>
-                <h4>CS20 & TS16 Practice</h4>
-                <p>Hands-on experience with Leica equipment, covering resection, topographic surveys, and as-built data collection.</p>
-              </article>
-            </div>
-            <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="240">
-              <article class="timeline-item">
-                <span class="dot"></span>
-                <i class="bi bi-house-gear" style="font-size: 1.5rem; color: #fd7e14;"></i>
-                <time>2025</time>
-                <h4>Garden Projects</h4>
-                <p>Developed practical projects including control point establishment, reflectorless surveys, and building as-builts.</p>
-              </article>
-            </div>
-            <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="300">
-              <article class="timeline-item">
-                <span class="dot"></span>
-                <i class="bi bi-building" style="font-size: 1.5rem; color: #6f42c1;"></i>
-                <time>Future</time>
-                <h4>Survey Engineer</h4>
-                <p>Focused on progressing into professional setting out and site engineering roles within construction projects.</p>
-              </article>
-            </div>
-          </div>
-        </div>
-        <!-- End Journey Timeline -->
         
-        <!-- Quote -->
+        <!-- Quote 
         <blockquote class="personal-quote" data-aos="fade-down" data-aos-delay="200">
           <p>"Delivering precision and accuracy in every layout through expertise and innovative engineering."</p>
         </blockquote>
-        <!-- End Quote -->
+        End Quote -->
 
-        <!-- Fun Facts -->
-        <div class="facts-wrap">
-          <div class="row g-3 justify-content-center">
-            <div class="col-6 col-md-3 col-lg-2" data-aos="zoom-in" data-aos-delay="120">
-                  <div class="fact-pill">
-                  <i class="bi bi-check-circle"></i>
-                  <span>Precision Surveying</span>
-              </div>
-            </div>
-            <div class="col-6 col-md-3 col-lg-2" data-aos="zoom-in" data-aos-delay="160">
-              <div class="fact-pill">
-                <i class="bi bi-map"></i>
-                <span>Site Mapping</span>
-              </div>
-            </div>
-            <div class="col-6 col-md-3 col-lg-2" data-aos="zoom-in" data-aos-delay="200">
-              <div class="fact-pill">
-                <i class="bi bi-tools"></i>
-                <span>Geotechnical Analysis</span>
-              </div>
-            </div>
-            <div class="col-6 col-md-3 col-lg-2" data-aos="zoom-in" data-aos-delay="240">
-              <div class="fact-pill">
-                <i class="bi bi-compass"></i>
-                <span>Navigation Systems</span>
-              </div>
-            </div>
-          </div>
+       <!-- Fun Facts -->
+<div class="facts-wrap section light-background">
+  <div class="container">
+    <div class="row g-4 justify-content-center text-center">
+
+      <div class="col-6 col-md-3 col-lg-2" data-aos="zoom-in" data-aos-delay="120">
+        <div class="fact-pill">
+          <i class="bi bi-check-circle"></i>
+          <span>Precision Surveying</span>
         </div>
-        <!-- End Fun Facts -->
+      </div>
+
+      <div class="col-6 col-md-3 col-lg-2" data-aos="zoom-in" data-aos-delay="160">
+        <div class="fact-pill">
+          <i class="bi bi-map"></i>
+          <span>Site Mapping</span>
+        </div>
+      </div>
+
+      <div class="col-6 col-md-3 col-lg-2" data-aos="zoom-in" data-aos-delay="200">
+        <div class="fact-pill">
+          <i class="bi bi-tools"></i>
+          <span>Geotechnical Analysis</span>
+        </div>
+      </div>
+
+      <div class="col-6 col-md-3 col-lg-2" data-aos="zoom-in" data-aos-delay="240">
+        <div class="fact-pill">
+          <i class="bi bi-compass"></i>
+          <span>Navigation Systems</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+<!-- End Fun Facts -->
+
     </section>
 
     <!-- Skills Section -->
