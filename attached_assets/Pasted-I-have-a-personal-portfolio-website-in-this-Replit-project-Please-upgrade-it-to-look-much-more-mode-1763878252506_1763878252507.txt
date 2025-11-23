@@ -1,0 +1,89 @@
+I have a personal portfolio website in this Replit project. Please upgrade it to look much more modern, professional, and visually striking, while keeping all existing content but improving how it’s presented.
+
+About me (update the content to reflect this):
+
+Name: Chibueze “Fortune” Akaleme
+
+Location: Southbourne, UK
+
+Role: Site/Setting Out Engineer & Web Developer
+
+I have recently achieved my CSCS Gold Card (Advanced Craft/Skilled Worker) – this should be clearly highlighted on the homepage and in a dedicated “Certifications” / “Qualifications” section.
+
+I have completed ProQual Level 3 in Setting Out Engineering and training as a Site Engineer.
+
+Design goals:
+
+Make the overall design look clean, modern and professional (think tech/engineering portfolio).
+
+Use a bold, attractive color palette that still looks serious and trustworthy.
+
+Improve typography (better font pairing, consistent headings, spacing and line-height).
+
+Add more striking visuals:
+
+Replace any outdated or generic images with modern, relevant images (use high-quality royalty-free placeholders and clear alt text).
+
+Add a strong hero section with a professional background image or gradient, a clear headline and CTA button.
+
+Improve layout of sections: About, Projects, Skills, Experience, Contact, etc., so they are easy to scan.
+
+Content updates to include:
+
+Hero Section
+
+Add a strong headline like “Site Engineer & Web Developer” and a short subheadline explaining what I do.
+
+Add a clear call-to-action button (e.g. “View My Projects” or “Download CV”).
+
+Certifications / Qualifications Section
+
+Create a separate section that clearly shows:
+
+CSCS Gold Card (highlight this visually, maybe with an icon or badge).
+
+ProQual Level 3 in Setting Out Engineering.
+
+Site Engineer training completed in July 2025 (adjust if needed based on existing content).
+
+Use cards or badges to present these qualifications neatly.
+
+Projects Section
+
+Improve the projects grid/cards so they look more polished, with:
+
+Clean card design (hover effects, shadows, rounded corners).
+
+Space for project title, short description, tech stack and a “View Project” button.
+
+Make sure this section looks good on desktop and mobile.
+
+Experience / Skills
+
+Present my skills in a clearer way (for example grouped by “Site Engineering”, “Web Development”, “Tools & Tech”).
+
+Use icons or progress bars only if they look professional and not gimmicky.
+
+Contact Section
+
+Clean, simple contact form design (if already present, just improve styling).
+
+Make sure it works and is responsive.
+
+Technical requirements:
+
+Keep the existing tech stack (HTML/CSS/JS/Bootstrap or whatever is in this project), but refactor the code to be cleaner and more maintainable where sensible.
+
+Ensure everything is fully responsive (mobile, tablet, desktop).
+
+Optimise images and layout for fast load times.
+
+Keep all important existing text content, but feel free to rewrite headings and microcopy to sound more polished and professional.
+
+Keep file structure tidy and well-organised with clear comments where needed.
+
+After making the changes, please:
+
+Update all pages so the new visual style is consistent across the entire site.
+
+Make sure the CSCS Gold Card and my engineering qualifications are clearly visible and easy to notice.
