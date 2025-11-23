@@ -58,9 +58,9 @@ php -S 0.0.0.0:5000
 Configured for autoscale deployment using PHP built-in server. The deployment command uses the PORT environment variable (`${PORT:-5000}`) to ensure compatibility with Replit's infrastructure, falling back to port 5000 if PORT is not set.
 
 ## Recent Changes
-- **2025-11-23**: Comprehensive Portfolio Modernization
+- **2025-11-23**: Comprehensive Portfolio Modernization - Site Engineering Focus
   - **Personal Information**: Updated to Chibueze "Fortune" Akaleme, Southbourne UK
-  - **Dual Role Positioning**: Site & Setting Out Engineer + Web Developer
+  - **Professional Focus**: Site & Setting Out Engineer (removed web developer role for focused positioning)
   - **Modern Design System**: 
     - Created custom-modern.css with professional blue/dark color palette
     - Implemented modern card designs, hover effects, and animations
@@ -70,12 +70,20 @@ Configured for autoscale deployment using PHP built-in server. The deployment co
     - Built dedicated Certifications section with highlighted Gold Card
     - Added ProQual Level 3, Site Engineer Training, SMSTS, First Aid certifications
   - **Enhanced Hero Section**:
-    - Modernized headline and tagline
+    - Modernized headline focusing on engineering precision
+    - Updated tagline to emphasize surveying expertise
     - Added dual CTA buttons (View Projects, Get in Touch)
     - Professional profile image display
-  - **Skills Section Reorganization**:
-    - Three categories: Site Engineering, Web Development, Software & Tools
-    - Added web development skills (HTML, CSS, JavaScript, Bootstrap, Git, VS Code)
+  - **About Section Complete Redesign**:
+    - Modern layout with image on left, content on right
+    - CSCS Gold Card badge overlay on profile image
+    - Specialty badges for core competencies (Setting Out, Control Networks, As-Built, Levelling)
+    - Statistics display showing years of experience, accuracy standards, and projects completed
+    - Professional eyebrow tags and improved typography
+  - **Skills Section Focused on Engineering**:
+    - Two categories: Site & Setting Out Engineering, Software & Tools
+    - Removed web development skills to maintain site engineering focus
+    - Added Control Networks, Resection Surveys, Coordinate Geometry
     - Modern card-based layout with icons
   - **Surveying Projects Section Redesign**:
     - Complete visual overhaul with modern project cards
