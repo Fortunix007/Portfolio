@@ -85,6 +85,13 @@ Configured for autoscale deployment using PHP built-in server. The deployment co
     - Removed web development skills to maintain site engineering focus
     - Added Control Networks, Resection Surveys, Coordinate Geometry
     - Modern card-based layout with icons
+  - **Technical Proficiencies Section Redesign**:
+    - Three modern proficiency cards: Survey Equipment, Software & CAD, Survey Methodologies
+    - Large gradient icons with hover animations (scale + rotate effect)
+    - Color-coded gradient top borders
+    - Interactive list items that slide right on hover
+    - Professional card shadows and hover elevations
+    - Comprehensive equipment and methodology listings
   - **Surveying Projects Section Redesign**:
     - Complete visual overhaul with modern project cards
     - Image zoom effects on hover with smooth transitions
