@@ -1,0 +1,21 @@
+# PHP
+vendor/
+composer.phar
+composer.lock
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Replit
+.replit
+.config/
+.upm/
