@@ -58,6 +58,28 @@ php -S 0.0.0.0:5000
 Configured for autoscale deployment using PHP built-in server. The deployment command uses the PORT environment variable (`${PORT:-5000}`) to ensure compatibility with Replit's infrastructure, falling back to port 5000 if PORT is not set.
 
 ## Recent Changes
+- **2025-11-23**: Comprehensive Portfolio Modernization
+  - **Personal Information**: Updated to Chibueze "Fortune" Akaleme, Southbourne UK
+  - **Dual Role Positioning**: Site & Setting Out Engineer + Web Developer
+  - **Modern Design System**: 
+    - Created custom-modern.css with professional blue/dark color palette
+    - Implemented modern card designs, hover effects, and animations
+    - Enhanced typography and spacing throughout
+  - **CSCS Gold Card Prominence**:
+    - Created animated badge in hero section with gold accent theme
+    - Built dedicated Certifications section with highlighted Gold Card
+    - Added ProQual Level 3, Site Engineer Training, SMSTS, First Aid certifications
+  - **Enhanced Hero Section**:
+    - Modernized headline and tagline
+    - Added dual CTA buttons (View Projects, Get in Touch)
+    - Professional profile image display
+  - **Skills Section Reorganization**:
+    - Three categories: Site Engineering, Web Development, Software & Tools
+    - Added web development skills (HTML, CSS, JavaScript, Bootstrap, Git, VS Code)
+    - Modern card-based layout with icons
+  - **Contact Section**: Modernized with Southbourne location and professional styling
+  - **Navigation**: Added Certifications link for easy access
+
 - **2025-11-23**: Initial Replit environment setup
   - Installed PHP 8.2 module
   - Configured PHP development server on port 5000
