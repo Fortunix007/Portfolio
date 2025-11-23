@@ -77,6 +77,14 @@ Configured for autoscale deployment using PHP built-in server. The deployment co
     - Three categories: Site Engineering, Web Development, Software & Tools
     - Added web development skills (HTML, CSS, JavaScript, Bootstrap, Git, VS Code)
     - Modern card-based layout with icons
+  - **Surveying Projects Section Redesign**:
+    - Complete visual overhaul with modern project cards
+    - Image zoom effects on hover with smooth transitions
+    - Category badges (As-Built, Control Network, Levelling) with color coding
+    - Interactive overlay with action buttons (Report, Data, View)
+    - Precision indicators showing accuracy (±1mm, ±2mm)
+    - Technology badges with icons for equipment and tools
+    - Professional card shadows and hover animations
   - **Contact Section**: Modernized with Southbourne location and professional styling
   - **Navigation**: Added Certifications link for easy access
 
