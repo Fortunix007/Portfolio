@@ -92,6 +92,25 @@ Configured for autoscale deployment using PHP built-in server. The deployment co
     - Interactive list items that slide right on hover
     - Professional card shadows and hover elevations
     - Comprehensive equipment and methodology listings
+  - **Core Skills Section Complete Redesign**:
+    - Six modern skill cards with gradient icon boxes and color-coded level badges
+    - Expert (blue), Advanced (cyan), Strong (purple), Professional (green) badge variants
+    - Dual metric displays showing quantitative achievements (50+ surveys, ±3mm precision, etc.)
+    - Icon hover animations with scale and rotate effects
+    - Card hover animations that lift up with enhanced shadows
+    - Removed old progress bar design for modern metrics-based approach
+  - **Professional Experience Section Complete Redesign**:
+    - Modern experience cards with left border accent (replaces timeline view)
+    - Achievement badges with hover interactions and icon animations
+    - Experience cards slide right on hover with shadow enhancement
+    - Company names displayed with icons for visual interest
+    - Period badges with gradient blue backgrounds
+    - Key achievements highlighted in gradient accent boxes with gold trophy icons
+    - Removed old timeline badges for cleaner card-based layout
+  - **Certifications Section Updates**:
+    - Removed all dates from certification cards for timeless presentation
+    - CSCS Gold Card, ProQual Level 3, and Site Engineer Training now dateless
+    - Focus on credential value rather than acquisition timing
   - **Surveying Projects Section Redesign**:
     - Complete visual overhaul with modern project cards
     - Image zoom effects on hover with smooth transitions
