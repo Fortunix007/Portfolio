@@ -1301,4 +1301,238 @@
   .key-achievements-modern ul li::before {
     font-size: 1rem;
   }
+
+  .data-card-modern {
+    padding: 28px 20px;
+  }
+
+  .data-icon {
+    width: 50px;
+    height: 50px;
+  }
+
+  .data-icon i {
+    font-size: 1.4rem;
+  }
+
+  .data-card-title {
+    font-size: 1.2rem;
+  }
+
+  .data-card-description {
+    font-size: 0.9rem;
+  }
+
+  .data-preview-code {
+    font-size: 0.65rem;
+    padding: 12px;
+  }
+
+  .data-card-footer {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .download-btn-modern {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+/* Survey Data Files Modern Section */
+.survey-data-modern {
+  padding: 80px 0;
+}
+
+.data-card-modern {
+  background: white;
+  border-radius: 20px;
+  padding: 32px;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
+  transition: all 0.4s ease;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.data-card-modern::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, #2563eb, #3b82f6);
+  border-radius: 20px 20px 0 0;
+}
+
+.data-card-modern:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 16px 48px rgba(37, 99, 235, 0.15);
+}
+
+.data-card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.data-icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+
+.data-icon i {
+  font-size: 1.75rem;
+  color: white;
+}
+
+.data-icon.pipeline {
+  background: linear-gradient(135deg, #2563eb, #3b82f6);
+}
+
+.data-icon.stockpile {
+  background: linear-gradient(135deg, #7c3aed, #8b5cf6);
+}
+
+.data-icon.control {
+  background: linear-gradient(135deg, #059669, #10b981);
+}
+
+.data-icon.topo {
+  background: linear-gradient(135deg, #0891b2, #06b6d4);
+}
+
+.data-card-modern:hover .data-icon {
+  transform: scale(1.1) rotate(5deg);
+}
+
+.data-type-badge {
+  background: linear-gradient(135deg, rgba(37, 99, 235, 0.1), rgba(59, 130, 246, 0.15));
+  color: #2563eb;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.data-card-title {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--heading-color);
+  margin-bottom: 10px;
+}
+
+.data-card-description {
+  color: #64748b;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.data-preview-modern {
+  background: #1e293b;
+  border-radius: 12px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.data-preview-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 16px;
+  background: rgba(255, 255, 255, 0.05);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  color: #94a3b8;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.data-preview-header i {
+  color: #3b82f6;
+}
+
+.data-preview-code {
+  margin: 0;
+  padding: 16px;
+  font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
+  font-size: 0.75rem;
+  color: #e2e8f0;
+  line-height: 1.8;
+  white-space: pre-wrap;
+  word-break: break-all;
+}
+
+.data-card-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.data-stats {
+  display: flex;
+  gap: 16px;
+}
+
+.data-stat {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: #64748b;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+.data-stat i {
+  color: #2563eb;
+}
+
+.download-btn-modern {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: linear-gradient(135deg, #2563eb, #3b82f6);
+  color: white;
+  padding: 12px 24px;
+  border-radius: 12px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  border: none;
+}
+
+.download-btn-modern:hover {
+  background: linear-gradient(135deg, #1d4ed8, #2563eb);
+  color: white;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(37, 99, 235, 0.3);
+}
+
+.download-btn-modern.download-csv {
+  background: linear-gradient(135deg, #059669, #10b981);
+}
+
+.download-btn-modern.download-csv:hover {
+  background: linear-gradient(135deg, #047857, #059669);
+  box-shadow: 0 8px 24px rgba(5, 150, 105, 0.3);
+}
+
+.download-btn-modern.download-topo {
+  background: linear-gradient(135deg, #0891b2, #06b6d4);
+}
+
+.download-btn-modern.download-topo:hover {
+  background: linear-gradient(135deg, #0e7490, #0891b2);
+  box-shadow: 0 8px 24px rgba(8, 145, 178, 0.3);
 }
