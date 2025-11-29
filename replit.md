@@ -111,6 +111,17 @@ Configured for autoscale deployment using PHP built-in server. The deployment co
     - Removed all dates from certification cards for timeless presentation
     - CSCS Gold Card, ProQual Level 3, and Site Engineer Training now dateless
     - Focus on credential value rather than acquisition timing
+  - **Survey Data Files Section Redesign**:
+    - Complete visual overhaul with modern data cards
+    - Gradient icon boxes (Pipeline blue, Stockpile purple, Control green, Topo cyan)
+    - Data type badges in top-right corner
+    - Dark code preview panels styled like IDE terminals
+    - Statistics display (point counts, file types)
+    - Gradient download buttons with hover effects
+    - Icon hover animations with scale and rotate effects
+    - Responsive two-column grid layout
+  - **About Section Update**:
+    - Changed "Recently achieved my CSCS Gold Card" to "I hold a CSCS Gold Card" for professional phrasing
   - **Surveying Projects Section Redesign**:
     - Complete visual overhaul with modern project cards
     - Image zoom effects on hover with smooth transitions
